@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "regexFilter": "openjs/openBox.js",
+            "resourceTypes": [ "xmlhttprequest","main_frame","script","other" ]
+        }
+    },
+    {
+        "id": 2,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "regexFilter": "bdstatic.com.*\/js\/share",
+            "resourceTypes": [ "xmlhttprequest","main_frame","script","other" ]
+        }
+    },
+    {
+        "id": 3,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "regexFilter": "boxer.baidu.com",
+            "resourceTypes": [ "xmlhttprequest","main_frame","script","other" ]
+        }
+    },
+    {
+        "id": 4,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "regexFilter": "/js/lib/invoke/invokeBox",
+            "resourceTypes": [ "xmlhttprequest","main_frame","script","other" ]
+        }
+    },
+    {
+        "id": 5,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "regexFilter": "/searchbox/openjs/share.js",
+            "resourceTypes": [ "xmlhttprequest","main_frame","script","other" ]
+        }
+    },
+    {
+        "id": 6,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "regexFilter": "nsclick.baidu.com/v.gif",
+            "resourceTypes": [ "xmlhttprequest","main_frame","image","script","other" ]
+        }
+    }
+    
+]
