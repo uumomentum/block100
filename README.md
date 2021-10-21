@@ -16,12 +16,12 @@
 
 
 ### 代码目录：
-Resources/jumpapp 文件夹为防App跳转目录：  
+#### 1：Resources/jumpapp 文件夹为防App跳转目录：  
 此目录下可新增或修改防止网站跳转App代码  
 每个App跳转单独文件夹，在对应文件夹下创建编写js文件  
 在content.js中判断域名等执行对应的js  
 
-Resources/domain 文件夹为目前匹配站点的展开全文和去除广告目录：  
+#### 2：Resources/domain 文件夹为目前匹配站点的展开全文和去除广告目录：  
 此目录下每个文件夹以用来匹配的站点域名为名称如xx.xx.com，包含call.js和read.js和网站中文名.md。  
 call.js ：去除当前站点广告代码  
 read.js 阅读当前站点时的展开全文代码  
@@ -29,8 +29,16 @@ domain/domain.js：目前匹配站点清单及url地址匹配规则，key与具�
 新增修改代码时，根据需要可能需同步修改background.js和content.js或插件配置代码。  
 # 
 # 社区
-  技术相关讨论，可以在issue中交流。
-  
+  如果你有好的意见或建议，欢迎给我们提 Issues 
+#
+# 参与贡献
+   ### 1：Fork仓库  
+      点击 Fork 按钮，将需要参与的项目仓库 fork 到自己的 Github 中。  
+   ### 2：Clone 已经fork的项目  
+     在自己的 github 中，找到 fork 下来的项目，git clone 到本地。  
+   ### 3：贡献代码
+    将 fork 源仓库连接到本地仓库， commit 信息提交，请描述提交的原因和功能。  
+#
   # License
    Copyright (c) 2021-2028 UU Momentum Network Technology Co., Ltd., All rights reserved.
 
